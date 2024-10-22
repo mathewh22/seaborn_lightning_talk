@@ -19,7 +19,7 @@ player = 'Stephen Curry'
 # Pull Shot locations for a player 
 sshots = subset[subset['PLAYER_NAME'] == player]
 
-# Shot locations for Stephen Curry made shots
+# Shot locations for player made shots
 smakes  = sshots[sshots['SHOT_MADE']== True]
 
 
